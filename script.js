@@ -55,7 +55,8 @@ if (savedTodos !== null) {
 }
 
 if (todolists.length === 0) {
-    output.innerHTML= "No To Do Saved";
+    output.innerHTML= `<span style="color: red; display: flex; justify-content: center; font-size: 30px" > No To Do
+    Saved </span>`;
 }
 
 addtodo.addEventListener('click', () => {
